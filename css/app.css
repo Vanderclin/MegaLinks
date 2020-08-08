@@ -1,25 +1,7 @@
-html {
-    background-color: #303030;
-    font-size: 14px;
-}
-
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .cover img {
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-        height: 210px;
-        margin: 3px;
-        width: 130px;
-    }
-}
-
+html,
 body {
     background-color: #303030;
+    font-size: 14px;
 }
 
 .btn-fab {
@@ -110,11 +92,10 @@ body {
     transform: translateY(-30px);
 }
 
-.cover img {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-    height: 260px;
-    margin: 3px;
-    width: 180px;
+.cover {
+    border-radius: 3px;
+    height: auto;
+    width: 101px;
 }
 
 .description {

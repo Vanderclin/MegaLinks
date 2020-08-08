@@ -37,16 +37,24 @@
     </div>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
             <div class="modal-content">
-                <div class="modal-body">
-                    <div class="cover">
-                        <img src="https://image.tmdb.org/t/p/w342/89QTZmn34iwXYeCpVxhC9UrT8sX.jpg">
+                <div class="modal-body row">
+                    <div class="mx-auto">
+                        <center>
+                            <img class="cover" src="https://image.tmdb.org/t/p/w342/89QTZmn34iwXYeCpVxhC9UrT8sX.jpg">
+                        </center>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary">Publicar</button>
+                    <div class="mx-auto">
+                        <form class="">
+                            <input class="form-control my-1" type="text" id="title" placeholder="Título">
+                            <input class="form-control my-1" type="text" id="title" placeholder="Descrição"><input class="form-control my-1" type="text" id="title" placeholder="Magnet Link">
+                        </form>
+                        <div class="btn-group btn-block">
+                            <button type="button" class="btn btn-secondary " data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Publicar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
