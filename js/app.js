@@ -47,6 +47,10 @@ $(document).ready(function () {
 
 $(function () {
     $('.btn-fab').on('click', '.btn', function () {
-        $('#exampleModal').modal('show');
+		$('#modal_poster').modal({
+			show: true,
+			backdrop: 'static',
+			keyboard: false
+		});
     });
 });
